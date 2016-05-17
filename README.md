@@ -3,7 +3,7 @@ Make your GitHub's contributions viewer awesome!
 
 With this simple python script you can make your contributions viewer look however you want:
 
-![screenshot from 2016-05-17 12 45 48](https://cloud.githubusercontent.com/assets/4309591/15320281/f072da5c-1c2f-11e6-93a6-fc166cdef513.png)
+![screenshot from 2016-05-17 14 17 44](https://cloud.githubusercontent.com/assets/4309591/15321965/289f589c-1c3a-11e6-8551-40cb74521617.png)
 
 You can use any image, it will be grayscaled and converted to commits for you:
 
