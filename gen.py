@@ -20,7 +20,7 @@ def commit(days_ago, msg):
   os.system('GIT_COMMITTER_DATE="'+t+'"' + ' GIT_AUTHOR_DATE="'+t+'"' + ' git commit -m "' +msg+'" 2>&1 >/dev/null')
 
 def rgb2gray(rgb):
-    r,g,b = rgb
+    r,g,b = rgb[0:3] # ignore alpha for now
     gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
 
     return gray
