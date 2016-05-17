@@ -37,3 +37,6 @@ python gen.py test.png
 ```
 git push origin master
 ```
+
+Each week the image will be shifted to the left, so if you leave some padding you can update once every two months or so.
+Also make sure to leave at least a few weeks of space at the right so you don't spam the people who follow you.
