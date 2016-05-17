@@ -26,15 +26,12 @@ def rgb2gray(rgb):
     return gray
 
 def write_px(x, y, intensity, prefix=""):
-  N=0
   days_ago = numdays+offset - (x*rows+y)
   d = date.today() - timedelta(days = days_ago)
   t = str(d) + " 00:00:00"
   print "val=",intensity, "x",x,"y",y,"date:",d
   for i in range(0, intensity):
     msg = prefix + os.urandom(8).encode("hex")
-#    msg = prefix + str(N)
-    N += 1
     commit(days_ago, msg)
 
 # Use this function to process a 52x7 image as grayscale
