@@ -1,4 +1,4 @@
-# contributions-image
+# awesome-contributions
 Make your GitHub's contributions viewer awesome!
 
 With this simple python script you can make your contributions viewer look however you want:
@@ -22,7 +22,7 @@ pip install pillow
 
 * Fork this project, then clone **your fork**:
 <pre>
-git clone https://github.com/<b>[YourUser]</b>/contributions-image
+git clone https://github.com/<b>[YourUser]</b>/awesome-contributions
 </pre>
 
 * Replace the test.png image by the 52x7 image you want as background (can be other formats too)
@@ -30,7 +30,7 @@ git clone https://github.com/<b>[YourUser]</b>/contributions-image
 * Run the generator:
 
 ```
-cd contributions-image
+cd awesome-contributions
 python gen.py test.png
 ```
 * Push the changes to your GitHub repository:
