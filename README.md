@@ -51,6 +51,22 @@ Then you just run the program the normal way:
 ```
 python gen.py AWESOME.bmp
 ```
+## Important
 
-Each week the image will be shifted to the left, so if you leave some padding you can update once every two months or so.
-Also make sure to leave at least a few weeks of space at the right so you don't spam the people who follow you.
+Sometimes some commits don't make it into the contributions page, in this case you create another repository (for example called `awesome`) and follow this steps:
+```
+# Go to the forked repository
+cd awesome-contributions
+
+# Add the second repository as a remote
+git remote add helper https://github.com/[YourUser]/awesome
+
+# Push the same commits there too...
+git push helper master
+```
+
+This will make GitHub refresh the commits correctly
+
+# Notes
+* Each week the image will be shifted to the left, so if you leave some padding you can update once every two months or so.
+* Make sure to leave at least a few weeks of space at the right so you don't spam the people who follow you.
