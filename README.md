@@ -18,7 +18,7 @@ The script uses the Python Image Library (PIL)
 pip install pillow
 ```
 
-# Usage
+# Usage (Image)
 
 * Fork this project, then clone **your fork**:
 <pre>
@@ -36,6 +36,20 @@ python gen.py test.png
 * Push the changes to your GitHub repository:
 ```
 git push origin master
+```
+
+# Usage (Text)
+You can also generate an image containing whatever text you want:
+```
+python gen.py --text "AWESOME"
+```
+Will generate AWESOME.bmp for you:
+
+![screenshot from 2016-05-18 22 43 41](https://cloud.githubusercontent.com/assets/4309591/15374320/fadf26ec-1d49-11e6-82c6-72dc8d6183f1.png)
+
+Then you just run the program the normal way:
+```
+python gen.py AWESOME.bmp
 ```
 
 Each week the image will be shifted to the left, so if you leave some padding you can update once every two months or so.
