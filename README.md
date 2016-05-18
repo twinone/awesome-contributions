@@ -65,7 +65,7 @@ git remote add helper https://github.com/[YourUser]/awesome
 git push helper master
 ```
 
-This will make GitHub refresh the commits correctly
+This will make GitHub refresh the commits correctly. If you refresh your profile page and see the commits are there, you can delete this helper repository again, and the commits from the original (forked) repository will stay visible.
 
 # Notes
 * Each week the image will be shifted to the left, so if you leave some padding you can update once every two months or so.
