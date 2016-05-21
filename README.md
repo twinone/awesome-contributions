@@ -20,9 +20,15 @@ pip install pillow
 
 # Usage (Image)
 
-* Fork this project, then clone **your fork**:
+* Clone **this repository** [it doesn't work on forks](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/):
 <pre>
-git clone https://github.com/<b>[YourUser]</b>/awesome-contributions
+git clone https://github.com/twinone/awesome-contributions
+cd awesome-contributions
+</pre>
+* Create a new empty github repository yourself on github, called `awesome-contributions`
+* Add your repository as a remote:
+<pre>
+git remote add github https://github.com/<b>[YourUser]</b>/awesome-contributions
 </pre>
 
 * Replace the test.png image by the 52x7 image you want as background (can be other formats too)
@@ -30,12 +36,12 @@ git clone https://github.com/<b>[YourUser]</b>/awesome-contributions
 * Run the generator:
 
 ```
-cd awesome-contributions
+# In the awesome-contributions directory:
 python gen.py test.png
 ```
-* Push the changes to your GitHub repository:
+* Push the changes to **your** GitHub repository:
 ```
-git push origin master
+git push github master
 ```
 
 # Usage (Text)
@@ -55,7 +61,7 @@ python gen.py AWESOME.bmp
 
 Sometimes some commits don't make it into the contributions page, in this case you create another repository (for example called `awesome`) and follow this steps:
 ```
-# Go to the forked repository
+# Go to the cloned repository
 cd awesome-contributions
 
 # Add the second repository as a remote
